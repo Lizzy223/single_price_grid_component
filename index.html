@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Single Price Grid Component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      body{
+        width: 95%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .container{
+        width: 75%;
+        height: 40vh;
+        box-shadow: 0px 2px 8px rgba(74, 74, 104, 0.15);
+      }
+
+      .top-box {
+        padding: 4rem;
+        background-color: #fff;
+        font-weight: 700;
+      }
+      .top-box > h2 {
+        color: hsl(179, 62%, 43%);
+      }
+      .top-box > .gold {
+        color: hsl(71, 73%, 54%);
+        margin-top: 1.5rem;
+      }
+      .top-box > .gray {
+        color: hsl(204, 43%, 93%);
+      }
+      .flex{
+        display: flex;
+        
+      }
+      .bottom-box1 {
+        background-color: hsl(179, 62%, 43%);
+        color: #fff;
+        padding: 4rem;
+        width: 50%;
+      }
+
+      .bottom-box2 {
+        background-color: hsl(218, 22%, 67%);
+        color: #fff;
+        padding: 4rem;
+        width: 50%;
+      }
+      .dollar {
+        font-weight: 700;
+        font-size: 3rem;
+      }
+      .color {
+        color: hsl(218, 22%, 67%);
+        font-size: 1rem;
+      }
+      button{
+        background-color:  hsl(71, 73%, 54%);
+        border-radius: 4px;
+        box-shadow: 0px 2px 8px rgba(74, 74, 104, 0.15);
+        border: none;
+        color: #fff;
+        width: 75%;
+        padding: 1rem;
+      }
+      .bold{
+        font-weight: 700;
+        font-size: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="top-box">
+        <h2>Join our community</h2>
+        <p class="gold">30-day, hassle-free money back guarantee</p>
+        <p class="gray">
+          Gain access to our full library of tutorials along with expert code
+          reviews. Perfect for any developers who are serious about honing their
+          skills.
+        </p>
+      </div>
+      <div class="flex">
+      <div class="bottom-box1">
+        <p class="bold">Monthly Subscription</p>
+
+        <p class="dollar">&dollar; 29 <span class="color"> per month</span></p>
+        
+
+      <p>  Full access for less than &dollar;1 a day</p> 
+        <button> Sign Up</button>
+      </div>
+      <div class="bottom-box2">
+       <p class="bold"> Why Us </p>
+       <div style="color:hsl(204, 43%, 93%)"> Tutorials by industry experts<br/> Peer &amp; expert code review<br/>
+        Coding exercises<br/> Access to our GitHub repos<br/> Community forum<br/> Flashcard
+        decks<br/> New videos every week
+      </div>
+      </div>
+    </div>
+    </div>
+    <!-- <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </p>
+    </footer> -->
+  </body>
+</html>
